@@ -43,6 +43,17 @@ Dept Max (m) | maximumDepthInMeters
 Alt Max (m) | maximumElevationInMeters
 Remarks | eventRemarks
 
+### duplicated eventID
+
+`DRM_5`, `VV_4`, `DIV_32` are duplicated.
+
+`VV_4` on 2024-02-23 is changed to `VV_4_2`. No sample associated with `VV_4`
+
+`DRM_5` on 2024-02-22 is changed to `DRM_5_2`. No sample associated with `DRM_5`.
+
+`DIV_32` on 2024-02-25 is changed to `DIV_32_2`. 1 sample associated with `DIV_32`, but it is unidentified.
+
+
 ## Samples sheet
 
 ### add identifiedByID1,2,3,4
@@ -71,3 +82,4 @@ Hirudinae | Hirudinea
 ### delete empty columns
 
 - institutionCode
+
